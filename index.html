@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>		
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Autopulse</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<a href="index.html" class="logo-link">
+			<img src="img/logo.svg" class="logo-img">
+			<p class="logo-txt">AutoPulse</p>
+		</a>
+		<nav header-nav>
+			<ul class="header-ul">
+					<a class="header-li" href="#home">Головна</a>
+					<a class="header-li"href="#advantages">Переваги</a>
+					<a class="header-li" href="#services">Послуги</a>
+					<a class="header-li" href="#catalog" >Каталог</a>
+					<a class="header-li" href="#contacts" >Контакти</a>
+			</ul>
+
+		</nav>
+		<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 12 16" class="burger" onclick="toggleMenu()"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+		 <div class="menu" id="menu">
+		        <span class="close-btn" onclick="toggleMenu()">&times;</span>
+		        <span class="close-btn" onclick="toggleMenu()">&times;</span>
+    			<a href="#home" onclick="toggleMenu()">Головна</a>
+    			<a href="#advantages" onclick="toggleMenu()">Переваги</a>
+	   			<a href="#services" onclick="toggleMenu()">Послуги</a>
+	    		<a href="#catalog" onclick="toggleMenu()">Каталог</a>
+	    		<a href="#contacts" onclick="toggleMenu()">Контакти</a>
+   		 </div>
+	</header>
+	<section id="home">
+	<div class="golovna">
+		<div class="left-golovna">
+			<h1 class="zaklik">Придбайте, ремонтуйте та <br> продавайте авто вигідно!</h1>
+			<p class="golovna-text">Ми допоможемо вам знайти ідеальне авто з міжнародних<br> аукціонів, провести професійний ремонт та реалізувати<br> автомобіль за вигідною ціною.</p>
+			<button class="order-btn">Замовити</button>
+		</div>
+		<div class="right-golovna">
+			<img src="img/car.png" class="car-img">
+			<img src="img/rectangle.png" class="rectangle-img">
+		</div>
+	</div>
+	</section>
+	<section id="advantages">
+	<div class="perevagi">
+		<h2 class="perevagi-zagolovok">Чому саме ми?</h2>
+		<div class="perevagi-main-div">
+			<div class="perevagi-div">
+				<svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" viewBox="0 0 24 24" fill="none" class="perevagi-img" >
+					<path opacity="0.5" d="M3.37752 5.08241C3 5.62028 3 7.21907 3 10.4167V11.9914C3 17.6294 7.23896 20.3655 9.89856 21.5273C10.62 21.8424 10.9807 22 12 22C13.0193 22 13.38 21.8424 14.1014 21.5273C16.761 20.3655 21 17.6294 21 11.9914V10.4167C21 7.21907 21 5.62028 20.6225 5.08241C20.245 4.54454 18.7417 4.02996 15.7351 3.00079L15.1623 2.80472C13.595 2.26824 12.8114 2 12 2C11.1886 2 10.405 2.26824 8.83772 2.80472L8.26491 3.00079C5.25832 4.02996 3.75503 4.54454 3.37752 5.08241Z" fill="#003AFF"/>
+					<path d="M15.0595 10.4995C15.3353 10.1905 15.3085 9.71643 14.9995 9.44055C14.6905 9.16468 14.2164 9.19152 13.9406 9.5005L10.9286 12.8739L10.0595 11.9005C9.78359 11.5915 9.30947 11.5647 9.0005 11.8406C8.69152 12.1164 8.66468 12.5905 8.94055 12.8995L10.3691 14.4995C10.5114 14.6589 10.7149 14.75 10.9286 14.75C11.1422 14.75 11.3457 14.6589 11.488 14.4995L15.0595 10.4995Z" fill="#1C274C"/>
+				</svg>
+				<h6 class="perevagi-imena">Надійність та досвід</h6>
+				<p class="perevagi-text">Ми маємо багаторічний досвід роботи з<br>міжнародними автоаукціонами та<br> ремонтом автомобілів. Забезпечуємо<br>прозорість процесів і високу якість<br>кожної послуги.</p>
+			</div>
+			<div class="perevagi-div-2">
+				<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg2" sodipodi:docname="wrench-alt.svg" inkscape:version="0.48.4 r9939" width="180px" height="180px" viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve" class="perevagi-img-2" >
+					<path id="path26422" inkscape:connector-curvature="0" d="M600,0C268.629,0,0,268.629,0,600s268.629,600,600,600  s600-268.629,600-600S931.371,0,600,0z M763.403,239.868c22.729-0.064,45.519,3.784,67.163,11.572L711.108,370.898l32.959,85.033  l85.033,32.959L948.56,369.434c24.923,69.264,9.648,149.801-45.85,205.299s-135.962,70.771-205.225,45.85l-339.625,339.55  L239.868,842.139l339.551-339.624c-24.922-69.263-9.647-149.726,45.85-205.225C663.424,259.135,713.396,240.009,763.403,239.868  L763.403,239.868z M332.593,818.408c-13.543,13.542-13.543,35.457,0,48.999c13.542,13.542,35.457,13.542,48.999,0  c13.542-13.543,13.542-35.457,0-48.999C366.913,805.064,345.241,806.141,332.593,818.408z" fill="#5D7FF2"/>
+				</svg>
+				<h6 class="perevagi-imena">Якісний сервіс</h6>
+				<p class="perevagi-text">Використовуємо сертифіковані<br>запчастини та сучасне<br> обладнання. Гарантуємо надійний<br> ремонт і відповідальне ставлення<br>до вашого авто.</p>
+			</div>
+			<div class="perevagi-div-3">
+				<svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" viewBox="0 0 24 24" fill="none"  class="perevagi-img">
+					<path d="M4.8916 9.61431C4.8916 9.21193 5.21525 8.88574 5.61449 8.88574H9.46991C9.86916 8.88574 10.1928 9.21193 10.1928 9.61431C10.1928 10.0167 9.86916 10.3429 9.46991 10.3429H5.61449C5.21525 10.3429 4.8916 10.0167 4.8916 9.61431Z" fill="#1C274C"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M21.1884 10.0038C21.1262 9.99995 21.0584 9.99998 20.9881 10L20.9706 10H18.2149C15.9435 10 14 11.7361 14 14C14 16.2639 15.9435 18 18.2149 18H20.9706L20.9881 18C21.0584 18 21.1262 18 21.1884 17.9962C22.111 17.9397 22.927 17.2386 22.9956 16.2594C23.0001 16.1952 23 16.126 23 16.0619L23 16.0444V11.9556L23 11.9381C23 11.874 23.0001 11.8048 22.9956 11.7406C22.927 10.7614 22.111 10.0603 21.1884 10.0038ZM17.9706 15.0667C18.5554 15.0667 19.0294 14.5891 19.0294 14C19.0294 13.4109 18.5554 12.9333 17.9706 12.9333C17.3858 12.9333 16.9118 13.4109 16.9118 14C16.9118 14.5891 17.3858 15.0667 17.9706 15.0667Z" fill="#1C274C"/>
+					<path opacity="0.5" d="M21.1394 10.0015C21.1394 8.82091 21.0965 7.55447 20.3418 6.64658C20.2689 6.55894 20.1914 6.47384 20.1088 6.39124C19.3604 5.64288 18.4114 5.31076 17.239 5.15314C16.0998 4.99997 14.6442 4.99999 12.8064 5H10.6936C8.85583 4.99999 7.40019 4.99997 6.26098 5.15314C5.08856 5.31076 4.13961 5.64288 3.39124 6.39124C2.64288 7.13961 2.31076 8.08856 2.15314 9.26098C1.99997 10.4002 1.99999 11.8558 2 13.6936V13.8064C1.99999 15.6442 1.99997 17.0998 2.15314 18.239C2.31076 19.4114 2.64288 20.3604 3.39124 21.1088C4.13961 21.8571 5.08856 22.1892 6.26098 22.3469C7.40018 22.5 8.8558 22.5 10.6935 22.5H12.8064C14.6442 22.5 16.0998 22.5 17.239 22.3469C18.4114 22.1892 19.3604 21.8571 20.1088 21.1088C20.3133 20.9042 20.487 20.6844 20.6346 20.4486C21.0851 19.7291 21.1394 18.8473 21.1394 17.9985C21.0912 18 21.0404 18 20.9882 18L18.2149 18C15.9435 18 14 16.2639 14 14C14 11.7361 15.9435 10 18.2149 10L20.9881 10C21.0403 9.99999 21.0912 9.99997 21.1394 10.0015Z" fill="#003AFF"/>
+					<path d="M10.1013 2.57211L7.99988 3.99253L6.2666 5.15237C7.40496 4.99997 8.8588 4.99999 10.6935 5H12.8063C14.6441 4.99998 16.0997 4.99997 17.2389 5.15314C17.4681 5.18394 17.6887 5.22142 17.9009 5.26737L15.9999 4L13.8874 2.57211C12.7588 1.8093 11.2299 1.8093 10.1013 2.57211Z" fill="#1C274C"/>
+				</svg>
+				<h6 class="perevagi-imena">Вигідні умови</h6>
+				<p class="perevagi-text">Пропонуємо конкурентні ціни,<br>професійний супровід на всіх<br>етапах і перевірені автомобілі з<br>міжнародних аукціонів.</p>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="services">
+	<div class="poslugi">
+		<h2 class="perevagi-zagolovok">Послуги</h2>
+		<div class="poslugi-bloks">
+			<div class="posluga-div">
+				<img src="img/auction.png" class="posluga-img">
+				<h6 class="posluga-name">Аукціон Авто</h6>
+				<p class="posluga-price-txt">Ціна: 19.99$</p>
+				<ul class="posluga-punkti-txt">
+					<li>Необмежена кількість<br>ставок</li>
+					<li>Доступ до живих<br>аукціонів</li>
+					<li>Звіти про історію<br>автомобіля</li>
+					<li>Пріоритетні сповіщення</li>
+				</ul>
+				<button class="buy-btn">
+					<p>Замовити</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 24 24" fill="none">
+						<path d="M4.46785 10.2658C4.47574 10.3372 4.48376 10.4094 4.49187 10.4823L4.61751 11.6131C4.7057 12.4072 4.78218 13.0959 4.91562 13.6455C5.05917 14.2367 5.29582 14.7937 5.78931 15.2354C6.28281 15.6771 6.86251 15.8508 7.46598 15.9281C8.02694 16.0001 8.71985 16 9.51887 16H14.8723C15.4201 16 15.9036 16 16.3073 15.959C16.7448 15.9146 17.1698 15.8162 17.5785 15.5701C17.9872 15.324 18.2731 14.9944 18.5171 14.6286C18.7422 14.291 18.9684 13.8637 19.2246 13.3797L21.7141 8.67734C22.5974 7.00887 21.3879 4.99998 19.5 4.99998L9.39884 4.99998C8.41604 4.99993 7.57525 4.99988 6.90973 5.09287C6.5729 5.13994 6.24284 5.21529 5.93326 5.34375L5.78941 4.04912C5.65979 2.88255 4.67375 2 3.5 2H3C2.44772 2 2 2.44771 2 3C2 3.55228 2.44772 4 3 4H3.5C3.65465 4 3.78456 4.11628 3.80164 4.26998L4.46785 10.2658Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M14 19.5C14 18.1193 15.1193 17 16.5 17C17.8807 17 19 18.1193 19 19.5C19 20.8807 17.8807 22 16.5 22C15.1193 22 14 20.8807 14 19.5Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5 19.5C5 18.1193 6.11929 17 7.5 17C8.88071 17 10 18.1193 10 19.5C10 20.8807 8.88071 22 7.5 22C6.11929 22 5 20.8807 5 19.5Z" fill="#ffffff"/>
+					</svg>
+				</button>
+			</div>
+			<div class="posluga-div">
+				<img src="img/sell.png" class="posluga-img">
+				<h6 class="posluga-name">Продаж Авто</h6>
+				<p class="posluga-price-txt">Ціна: 19.99$</p>
+				<ul class="posluga-punkti-txt">
+					<li>Розміщення оголошення<br>на 30 днів</li>
+					<li>Розміщення у вибраних <br>списках</li>
+					<li>Висока видимість <br>оголошень</li>
+					<li>Підтримка клієнтів</li>
+				</ul>
+				<button class="buy-btn">
+					<p>Замовити</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 24 24" fill="none">
+						<path d="M4.46785 10.2658C4.47574 10.3372 4.48376 10.4094 4.49187 10.4823L4.61751 11.6131C4.7057 12.4072 4.78218 13.0959 4.91562 13.6455C5.05917 14.2367 5.29582 14.7937 5.78931 15.2354C6.28281 15.6771 6.86251 15.8508 7.46598 15.9281C8.02694 16.0001 8.71985 16 9.51887 16H14.8723C15.4201 16 15.9036 16 16.3073 15.959C16.7448 15.9146 17.1698 15.8162 17.5785 15.5701C17.9872 15.324 18.2731 14.9944 18.5171 14.6286C18.7422 14.291 18.9684 13.8637 19.2246 13.3797L21.7141 8.67734C22.5974 7.00887 21.3879 4.99998 19.5 4.99998L9.39884 4.99998C8.41604 4.99993 7.57525 4.99988 6.90973 5.09287C6.5729 5.13994 6.24284 5.21529 5.93326 5.34375L5.78941 4.04912C5.65979 2.88255 4.67375 2 3.5 2H3C2.44772 2 2 2.44771 2 3C2 3.55228 2.44772 4 3 4H3.5C3.65465 4 3.78456 4.11628 3.80164 4.26998L4.46785 10.2658Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M14 19.5C14 18.1193 15.1193 17 16.5 17C17.8807 17 19 18.1193 19 19.5C19 20.8807 17.8807 22 16.5 22C15.1193 22 14 20.8807 14 19.5Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5 19.5C5 18.1193 6.11929 17 7.5 17C8.88071 17 10 18.1193 10 19.5C10 20.8807 8.88071 22 7.5 22C6.11929 22 5 20.8807 5 19.5Z" fill="#ffffff"/>
+					</svg>
+				</button>
+			</div>
+			<div class="posluga-div">
+				<img src="img/repair.jpeg" class="posluga-img">
+				<h6 class="posluga-name">Ремонт Авто</h6>
+				<p class="posluga-price-txt">Ціна: договірна</p>
+				<ul class="posluga-punkti-txt">
+					<li>Безкоштовна<br>діагностика</li>
+					<li>Пріоритетне <br>обслуговування</li>
+					<li>Знижки на запчастини</li>
+					<li>Гарантія на 1 рік</li>
+				</ul>
+				<button class="buy-btn-3">
+					<p>Замовити</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 24 24" fill="none">
+						<path d="M4.46785 10.2658C4.47574 10.3372 4.48376 10.4094 4.49187 10.4823L4.61751 11.6131C4.7057 12.4072 4.78218 13.0959 4.91562 13.6455C5.05917 14.2367 5.29582 14.7937 5.78931 15.2354C6.28281 15.6771 6.86251 15.8508 7.46598 15.9281C8.02694 16.0001 8.71985 16 9.51887 16H14.8723C15.4201 16 15.9036 16 16.3073 15.959C16.7448 15.9146 17.1698 15.8162 17.5785 15.5701C17.9872 15.324 18.2731 14.9944 18.5171 14.6286C18.7422 14.291 18.9684 13.8637 19.2246 13.3797L21.7141 8.67734C22.5974 7.00887 21.3879 4.99998 19.5 4.99998L9.39884 4.99998C8.41604 4.99993 7.57525 4.99988 6.90973 5.09287C6.5729 5.13994 6.24284 5.21529 5.93326 5.34375L5.78941 4.04912C5.65979 2.88255 4.67375 2 3.5 2H3C2.44772 2 2 2.44771 2 3C2 3.55228 2.44772 4 3 4H3.5C3.65465 4 3.78456 4.11628 3.80164 4.26998L4.46785 10.2658Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M14 19.5C14 18.1193 15.1193 17 16.5 17C17.8807 17 19 18.1193 19 19.5C19 20.8807 17.8807 22 16.5 22C15.1193 22 14 20.8807 14 19.5Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5 19.5C5 18.1193 6.11929 17 7.5 17C8.88071 17 10 18.1193 10 19.5C10 20.8807 8.88071 22 7.5 22C6.11929 22 5 20.8807 5 19.5Z" fill="#ffffff"/>
+					</svg>
+				</button>
+			</div>
+			<div class="posluga-div">
+				<img src="img/tuning.jpeg" class="posluga-img">
+				<h6 class="posluga-name">Тюнінг Авто</h6>
+				<p class="posluga-price-txt">Ціна: договірна</p>
+				<ul class="posluga-punkti-txt">
+					<li>Індивідуальні дизайни</li>
+					<li>Оптимізація двигуна</li>
+					<li>Якісні запчастини</li>
+					<li>Професійна установка</li>
+				</ul>
+				<button class="buy-btn-4">
+					<p>Замовити</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px" viewBox="0 0 24 24" fill="none">
+						<path d="M4.46785 10.2658C4.47574 10.3372 4.48376 10.4094 4.49187 10.4823L4.61751 11.6131C4.7057 12.4072 4.78218 13.0959 4.91562 13.6455C5.05917 14.2367 5.29582 14.7937 5.78931 15.2354C6.28281 15.6771 6.86251 15.8508 7.46598 15.9281C8.02694 16.0001 8.71985 16 9.51887 16H14.8723C15.4201 16 15.9036 16 16.3073 15.959C16.7448 15.9146 17.1698 15.8162 17.5785 15.5701C17.9872 15.324 18.2731 14.9944 18.5171 14.6286C18.7422 14.291 18.9684 13.8637 19.2246 13.3797L21.7141 8.67734C22.5974 7.00887 21.3879 4.99998 19.5 4.99998L9.39884 4.99998C8.41604 4.99993 7.57525 4.99988 6.90973 5.09287C6.5729 5.13994 6.24284 5.21529 5.93326 5.34375L5.78941 4.04912C5.65979 2.88255 4.67375 2 3.5 2H3C2.44772 2 2 2.44771 2 3C2 3.55228 2.44772 4 3 4H3.5C3.65465 4 3.78456 4.11628 3.80164 4.26998L4.46785 10.2658Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M14 19.5C14 18.1193 15.1193 17 16.5 17C17.8807 17 19 18.1193 19 19.5C19 20.8807 17.8807 22 16.5 22C15.1193 22 14 20.8807 14 19.5Z" fill="#ffffff"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M5 19.5C5 18.1193 6.11929 17 7.5 17C8.88071 17 10 18.1193 10 19.5C10 20.8807 8.88071 22 7.5 22C6.11929 22 5 20.8807 5 19.5Z" fill="#ffffff"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="catalog">
+	<div class="katalog">
+		<h2 class="perevagi-zagolovok">Каталог</h2>
+		<div class="katalog-ramka">
+			<div class="slider">
+			  	<img src="img/porsh1.jpg" class="slide active">
+			  	<img src="img/porsh2.jpg" class="slide">
+			  	<img src="img/porsh3.jpg" class="slide">
+			  	<button id="prev" class="tuda">◀</button>
+			  	<button id="next" class="tuda">▶</button>
+			</div>
+			<div class="harakteristiki-ramka">
+				<h6 class="namecar">Porsche Panamera</h6>
+				<p class="harakteristiki-txt">Рік випуску: <span class="pokaznik-txt">2018</span></p>
+				<p class="harakteristiki-txt">Двигун: <span class="pokaznik-txt">6CYL 3.0L</span></p>
+				<p class="harakteristiki-txt">Коробка передач: <span class="pokaznik-txt">Автомат</span></p>
+				<p class="harakteristiki-txt">Він код: <span class="pokaznik-txt">WP0AB2A93PS221436</span></p>
+				<p class="harakteristiki-txt">Пробіг: <span class="pokaznik-txt">100 000 кілометрів</span></p>
+				<p class="harakteristiki-txt">Локація: <span class="pokaznik-txt">Житомир</span></p>
+				<button class="call-btn">Зателефонувати</button>
+
+			</div>
+		</div>
+	</div>
+		</section>
+		<section id="contacts">
+	<div class="contact">
+		<img src="img/image2.png" class="fonove">
+		<div class="contact-kvadrat">
+			<h5 class="contact-zagolovok-txt">Contuct us</h5>
+			<div class="contact-base">
+				<div class="contact-polya">
+					<input type="text" name="name" placeholder="Ім’я" required><br><br><br>
+					<input type="email" name="email" placeholder="Пошта" required><br><br><br>
+					<input type="tel" name="phone" placeholder="Номер" required><br><br><br>
+					<select name="service">
+					  <option value="auc">Аукціон авто</option>
+					  <option value="sell">Продаж авто</option>
+					  <option value="repair">Ремонт авто</option>
+					  <option value="tuning">Тюнинг авто</option>
+					</select>
+					<br>
+					<button type="submit" class="send-btn">Відправити</button>
+				</div>
+				<img src="img/image2.png" class="contact-img">
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<p class="footer-text">Офіс:м.Львів В.Великого 35</p>
+		<a href="index.html" class="logo-link">
+			<img src="img/logo.svg" class="footer-logo-img">
+			<p class="logo-txt">AutoPulse</p>
+		</a>
+		<p class="footer-text">Пошта:autopulse@gmail.com</p>
+	</footer>
+	<script type="text/javascript">
+		const slides = document.querySelectorAll('.slide');
+		let index = 0;
+
+		document.getElementById('next').addEventListener('click', () => {
+		  slides[index].classList.remove('active');
+		  index = (index + 1) % slides.length;
+		  slides[index].classList.add('active');
+		});
+
+		document.getElementById('prev').addEventListener('click', () => {
+		  slides[index].classList.remove('active');
+		  index = (index - 1 + slides.length) % slides.length;
+		  slides[index].classList.add('active');
+		});
+			 function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+        }
+	</script>
+</body>
+</html>
